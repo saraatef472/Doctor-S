@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    /* background-color: #83b7d6; */
+    display: inline-flex;
+}
+
+.human {
+    width: 75%;
+    margin-left: 17%;
+}
+
+.human1 {
+    padding-top: 25px;
+    width: 85%;
+    display: inline-flex;
+}
+
+.layers {
+    cursor: pointer;
+    opacity: 0;
+    outline: none;
+    -webkit-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    fill: #83b7d6;
+}
+
+textarea {
+    width: 40%;
+    margin-left: 30%;
+    display: block;
+}
+
+.human>h1 {
+    margin-top: -10px;
+    color: aliceblue;
+    margin-left: 19%;
+}
+
+.head:hover,
+.neck:hover,
+.LEG1:hover,
+.LEG2:hover,
+.chest:hover,
+.hand:hover,
+.handd:hover,
+.ABDOMEN:hover,
+.PELVIS:hover,
+.head2:hover,
+.neck2:hover,
+.leg3:hover,
+.leg4:hover,
+.butt:hover,
+.back:hover,
+.hand3:hover,
+.hand4:hover {
+    fill: red;
+}
+
+.fi1>h1 {
+    line-height: 0%;
+}
+
+.footer {
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.fi2>h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.fi3>h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.fi4>h3 {
+    color: black;
+    font-weight: bolder;
+}
+
+.i1 {
+    margin-top: 3%;
+    border-radius: 15px;
+    width: 70%;
+    padding: 2%;
+    opacity: 0.8;
+}
+
+.i2 {
+    margin-top: 4%;
+    border-radius: 15px;
+    width: 20%;
+    padding: 2%;
+}
+
+.fi {
+    text-align: center;
+    background-color: #b9f8ff;
+    display: inline-flex;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.fi1 {
+    width: 25%;
+}
+
+.fi2 {
+    width: 25%;
+}
+
+.fi3 {
+    width: 25%;
+}
+
+.fi4 {
+    width: 25%;
+}
+
+.fa {
+    border-radius: 20px;
+    /* margin-left: px; */
+    padding: 9px;
+    font-size: 22px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 70%;
+}
+
+.fa-instagram {
+    background: #ff006a;
+    color: white;
+    border-radius: 60%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 60%;
+}

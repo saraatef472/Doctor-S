@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../C:\xampp\htdocs\php/Untitled-1">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency</title>
+    <link rel="icon" type="image/png" href="../images/logo22.jpg">
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="back">
+            <button onclick="window.location.href='../index.html'">  ► Home page</button>
+            <button onclick="window.location.href='http://127.0.0.1:5000'">► Analyzis body test</button>
+            <button onclick="window.location.href='../Doctor/Doctor.html'">► Doctor</button>
+
+        </div>
+        <div class="card">
+            <div class="head">
+                <h1>Complete the emergency request</h1>
+            </div>
+
+            <div class="data">
+                <form name="frmuser" action="contact.php" method="post">
+                    <h2>Name</h2>
+                    <input type="text" onkeydown="return /[a-z]/i.test(event.key)" name="Name" id="Name" placeholder="Name" required>
+                    <h2>Phone Number</h2>
+                    <input type="number" maxlength="11" pattern="[0-9]{1}[0-9]{10}" name="Phone" id="Phone" placeholder="Phone number only 11 number" required>
+                    <!-- <input type="text" maxlength="11" pattern="[1-9]{1}[0-9]{10}" name="Phone" id="Phone" placeholder="Your Phone" required> -->
+                    <h2>ID Number</h2>
+                    <input type="number" maxlength="14" pattern="[1-9]{1}[0-9]{13}" name="ID_num" id="ID_num" placeholder=" ID number 14 number" required>
+                    <h2>Description of the emergency</h2>
+                    <textarea name="Describtion" id="Describtion" cols="45" rows="10" placeholder="please enter a simple describtion like " required></textarea>
+                    <h2>Share your loacation</h2>
+                    <input type="button" value="Location Live" onclick="getlocation();" required><br>
+                    <div id="demo" style="width: 50%; height: 240px; text-align: center; margin-left: 25%;"></div>
+
+                    <h2>Enter you address</h2>
+                    <textarea name="Address" id="Address" cols="45" rows="5" placeholder="Please enter your address"></textarea><br><br><br>
+                    <input type="submit" name="submit" id="submit" value="Submit" style="margin-bottom: 4%; width: 15%;">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

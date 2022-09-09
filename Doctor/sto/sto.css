@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('stooo.jpg');
+    height: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+.forma {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 4%;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgba(129, 129, 116, 0.329);
+    display: inline-flex;
+}
+
+.second {
+    padding-left: 10%;
+    width: 70%;
+}
+
+h1 {
+    margin-left: 6%;
+}
+
+span {
+    font-size: 19px;
+}
+
+textarea {
+    width: 100%;
+    height: 240px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 0.743;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
